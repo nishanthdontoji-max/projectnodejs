@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata: Set language, character encoding, and responsive settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeHub - Explore Your Perfect Ride</title>
+    <!-- Link external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR: Header with logo and menu links -->
+    <nav>
+        <div class="logo">🚴 BikeHub</div>
+        <ul>
+            <!-- Menu links that scroll to different sections (# means same page) -->
+            <li><a href="#bikes">Bikes</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION: Main banner with headline and call-to-action button -->
+    <section class="hero" id="home">
+        <h1>Ride Your Adventure</h1>
+        <p>Discover the perfect bike for every journey</p>
+        <!-- Button that links to bikes section when clicked -->
+        <a href="#bikes" class="button">Explore Bikes</a>
+    </section>
+
+    <!-- BIKES SECTION: Display all bikes in different categories -->
+    <section id="bikes">
+        <h2>Our Bike Collection</h2>
+
+        <!-- ADVENTURE BIKES CATEGORY: First group of bikes -->
+        <div class="category">
+            <h3>🏔️ Adventure Bikes</h3>
+            <!-- Grid layout that shows bikes side by side (responsive on mobile) -->
+            <div class="bike-grid">
+                <!-- BIKE CARD 1: Individual bike item with image, name, and specs -->
+                <div class="bike-card">
+                    <!-- Bike image from images folder -->
+                    <img src="images/himalayan 450.webp" alt="Himalayan 450" class="bike-image">
+                    <!-- Bike details container -->
+                    <div class="bike-info">
+                        <span class="bike-type">Adventure Bike</span>
+                        <h4>Himalayan 450</h4>
+                        <p class="bike-desc">Rugged exploration bike perfect for off-road adventures.</p>
+                        <!-- Bike specifications (engine, features) -->
+                        <div class="specs">
+                            <span class="spec">450cc</span>
+                            <span class="spec">Dual Purpose</span>
+                            <span class="spec">Long Range</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIKE CARD 2 -->
+                <div class="bike-card">
+                    <img src="images/himalayan 411.jpg" alt="Himalayan 411" class="bike-image">
+                    <div class="bike-info">
+                        <span class="bike-type">Adventure Bike</span>
+                        <h4>Himalayan 411</h4>
+                        <p class="bike-desc">Lightweight and versatile for off-road exploration.</p>
+                        <div class="specs">
+                            <span class="spec">411cc</span>
+                            <span class="spec">Fuel Efficient</span>
+                            <span class="spec">All Terrain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIKE CARD 3 -->
+                <div class="bike-card">
+                    <img src="images/bmw gs 1250.jpg" alt="BMW GS1250" class="bike-image">
+                    <div class="bike-info">
+                        <span class="bike-type">Adventure Bike</span>
+                        <h4>BMW GS1250</h4>
+                        <p class="bike-desc">Premium bike with cutting-edge technology.</p>
+                        <div class="specs">
+                            <span class="spec">1250cc</span>
+                            <span class="spec">Advanced Tech</span>
+                            <span class="spec">All-Weather</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CRUISER BIKES CATEGORY: Second group of bikes -->
+        <div class="category">
+            <h3>🛴 Cruiser Bikes</h3>
+            <div class="bike-grid">
+                <!-- BIKE CARD 4 -->
+                <div class="bike-card">
+                    <img src="images/images2/super meteor 650.webp" alt="Super Meteor 650" class="bike-image">
+                    <div class="bike-info">
+                        <span class="bike-type">Cruiser Bike</span>
+                        <h4>Super Meteor 650</h4>
+                        <p class="bike-desc">Classic cruiser with smooth handling.</p>
+                        <div class="specs">
+                            <span class="spec">650cc</span>
+                            <span class="spec">Retro Style</span>
+                            <span class="spec">Comfort</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIKE CARD 5 -->
+                <div class="bike-card">
+                    <img src="images/images2/harley.jpg" alt="Harley Davidson" class="bike-image">
+                    <div class="bike-info">
+                        <span class="bike-type">Cruiser Bike</span>
+                        <h4>Harley Davidson</h4>
+                        <p class="bike-desc">Iconic American cruiser with legendary style.</p>
+                        <div class="specs">
+                            <span class="spec">1200cc+</span>
+                            <span class="spec">Iconic</span>
+                            <span class="spec">Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BIKE CARD 6 -->
+                <div class="bike-card">
+                    <img src="images/images2/rocket 3.webp" alt="Triumph Rocket 2500" class="bike-image">
+                    <div class="bike-info">
+                        <span class="bike-type">Cruiser Bike</span>
+                        <h4>Triumph Rocket 2500</h4>
+                        <p class="bike-desc">British cruiser with powerful performance.</p>
+                        <div class="specs">
+                            <span class="spec">2300cc</span>
+                            <span class="spec">British</span>
+                            <span class="spec">Robust</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION: Why customers should choose us -->
+    <section id="features">
+        <h2>Why Choose BikeHub?</h2>
+        <!-- Grid of feature items showing company benefits -->
+        <div class="feature-grid">
+            <!-- FEATURE 1 -->
+            <div class="feature">
+                <div class="feature-icon">⚙️</div>
+                <h4>Premium Quality</h4>
+                <p>Best materials and precision engineering</p>
+            </div>
+            <!-- FEATURE 2 -->
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <h4>5-Year Warranty</h4>
+                <p>Complete coverage on all bikes</p>
+            </div>
+            <!-- FEATURE 3 -->
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <h4>Free Shipping</h4>
+                <p>Delivery and assembly included</p>
+            </div>
+            <!-- FEATURE 4 -->
+            <div class="feature">
+                <div class="feature-icon">👨‍🔧</div>
+                <h4>24/7 Support</h4>
+                <p>Expert maintenance and support team</p>
+            </div>
+            <!-- FEATURE 5 -->
+            <div class="feature">
+                <div class="feature-icon">🌱</div>
+                <h4>Eco-Friendly</h4>
+                <p>Sustainable manufacturing practices</p>
+            </div>
+            <!-- FEATURE 6 -->
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <h4>Best Prices</h4>
+                <p>Competitive pricing with discounts</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION: Call to action for customers to reach out -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>Ready to find your perfect bike?</p>
+        <div>
+            <!-- Button that opens email in Microsoft Edge browser -->
+            <a href="microsoft-edge:https://mail.google.com/mail/?view=cm&fs=1&to=nishanthdontoji@gmail.com" class="button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- FOOTER: Website information and copyright -->
+    <footer>
+        <p>&copy; 2024 BikeHub. All rights reserved. | Ride Safe, Ride Happy</p>
+    </footer>
+
+    <!-- JAVASCRIPT: Script for smooth scrolling functionality -->
+    <script>
+        // Find all links that point to page sections (those with # in href)
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            // Add click event listener to each link
+            link.addEventListener('click', function(e) {
+                // Prevent default jump behavior
+                e.preventDefault();
+                // Get the target section that the link points to
+                const target = document.querySelector(this.getAttribute('href'));
+                // Smoothly scroll to that section
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
